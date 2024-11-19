@@ -12,6 +12,9 @@ namespace MiniGameCollection.Games2024.Team05
         float y;
         public float speed = 5f;
 
+        // Material Renderer
+        public Material[] color;
+
         // Start is called before the first frame update
         void Start()
         {
